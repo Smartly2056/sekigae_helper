@@ -1,0 +1,66 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  width: 250px;
+  color: #333;
+  border-bottom: dashed 1px orange;
+  margin: 50px auto;
+}
+
+p {
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  margin: 40px auto 20px;
+  text-align: center;
+  border: 1px inset #000;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 4px;
+}
+
+th, td {
+  background-color: rgb(255, 225, 190);
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+td.red {
+  background-color: rgb(255, 197, 252);
+}
+
+td.blue {
+  background-color: rgb(180, 236, 253);
+}
+
+#shuffle {
+  all:unset;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  background-color: rgb(255, 211, 160);
+  box-shadow: 0 2px rgb(192, 146, 94);
+}
+
+#shuffle:hover {
+ opacity: .8; 
+}
+
+#shuffle:active {
+  transform: translate(0, 2px);
+  box-shadow: 0 0;
+}
+
